@@ -1,0 +1,323 @@
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-right: 100px;
+    width: 100%;
+}
+header {
+    display: flex;
+}
+.logo-png {
+    height: 130px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.home {
+    color: rgb(189,0,255);
+    text-decoration: none;
+    margin-left: 670px;
+}
+.background {
+    background-color:black;
+}
+.im {
+    color: white;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+.name-container {
+    display: flex;
+    
+}
+.stan {
+    color: blueviolet;
+    font-size: 50px;
+    margin-top: 130px;
+    margin-left: 20px;
+}
+.hello {
+    color: white;
+    font-size: 20px;
+    margin-top: 110px;
+    margin-left: -65px;
+}
+.bouwman {
+    color: rgb(228, 19, 228);
+    font-size: 50px;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+.personinfo {
+    color: white;
+    font-size: 20px;
+    margin-top: 190px;
+    margin-left: -315px;
+}
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+.download-cv {
+    background-color: rgb(228, 19, 228);
+    margin-top: 20px;
+    margin-left: 110px;   
+    transition: transform 1.5s;
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    display: inline-flex;
+    height: 21px;
+}
+.links {
+    text-decoration: none;
+    color: white;
+}
+.portrait-flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.portrait {
+    margin-right: 150px;
+    margin-top: -200px;
+    height: 450px;
+    transition: transform 1.5s;
+}
+.socials {
+    height: 40px;
+    margin-left: 100px;
+    display: flex;
+    width: 10%;
+    justify-content: space-evenly;
+}
+
+a {
+    height: 40px;
+}
+.instagram, .whatsapp, .facebook{
+   height: 40px;
+   margin-top: -50px;
+   
+}
+.portrait:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.1)
+}
+.download-cv:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.1)
+}
+.about-me {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 470px;
+    margin-top: -150px;
+}
+.portrait-2 {
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 90px;
+    Transition: transform 1.5s;
+}
+.portrait-2:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.1)
+}
+.hobbies {
+    margin-left: 540px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -100px;
+}
+.hobbies-img {
+    height: 250px;
+    margin-top: 100px;
+    Transition: transform 1.5s;
+    margin-left: 70px;
+}
+.hobbies-img:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.1)
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  font-family:'Roboto';
+  background-color: #131417;  
+}
+p {
+  text-shadow: 0 0 7px rgba(255,255,255,.3), 0 0 3px rgba(255,255,255,.3);
+}
+.container {
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 600px;
+}
+
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 0.25rem 0.75rem;
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color:rgb(228, 19, 228);
+}
+.second div {
+  background-color:purple;
+}
+.third div {
+  background-color:violet;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+.pink-goose {
+    height: 400px;
+    margin-left: 580px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .portrait {
+        height: 400px;
+        margin: 0%;
+    }
+    .portrait-flex {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 180px;
+    }
+        
+    .socials {
+        height: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin: 0%;
+       width: 100%;
+       margin-top: 150px;
+    }
+    
+      
+      header {
+        flex-direction: column;
+      }
+      .home {
+        margin: 0%;
+        color: rgb(189,0,255);
+        text-decoration: none;
+      }
+      .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+      }
+      .navigation {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0%;
+      }
+      .container {
+        display: none;
+      }
+      .logo-png {
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .download-cv {
+    display: inline-flex;
+    height: 21px;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    width: 100%;
+    margin-top: 50px;
+      }
+      .portrait-2 {
+        height: 130px;
+      }
+      .about-me {
+        font-size: 15px;
+        margin: 0%;
+        margin-top: 200px;
+        margin-left: -300px;
+        justify-content: center;
+        align-items: center;
+      }
+      .portrait-2-flex {
+        display: flex;
+        text-align: center;
+      }
+      .hobbies-img {
+        height: 150px;
+        margin-top: 60px;
+      }
+      .hobbies {
+        margin: 0%;
+        text-align: center;
+      }
+      .pink-goose {
+        height: 200px;
+        margin: 0%;
+        margin-left: 110px;
+        margin-top: 40px;
+      }
+      .mastermind-img {
+        height: 150px;      
+       margin: 0%;
+       margin-left: 0%;
+       margin-top: 70px;
+      }
+     
+}
+.pink-goose-text , .mastermind-text {
+  color: #fff;
+ font-size: 15px;
+ text-align: center;
+}
+.mastermind-img {
+  height: 200px;
+  margin-left: 500px;
+ margin-top: 70px;
+}
